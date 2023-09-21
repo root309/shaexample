@@ -1,0 +1,18 @@
+{
+    "type": "lldb",
+    "request": "launch",
+    "name": "Debug executable 'learn-rust'",
+    "cargo": {
+      "args": [
+        "build",
+        "--bin=learn-rust",
+        "--package=learn-rust"
+      ],
+      "filter": {
+        "name": "learn-rust",
+        "kind": "bin"
+      }
+    },
+    "args": [],
+    "cwd": "${workspaceFolder}"
+  }
